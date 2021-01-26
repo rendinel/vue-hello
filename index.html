@@ -13,7 +13,7 @@
     <input v-model="name" placeholder="gna ti chim?">
     <h1> {{name}} {{message}} </h1>
 
-    <img  v-bind:src="img">
+    <img v-for="img in images" v-bind:src="images">
 
     <script src="script.js"></script>
   </body>
